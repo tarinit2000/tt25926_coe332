@@ -1,4 +1,4 @@
-# Tarini Thiagarajan's homework 02 description
+# Tarini Thiagarajan's Homework 02 Description
 
 The purpose of this project is to build upon homework 01. To recap from homework 01, I created a generate_animals.json 
 that generates a JSON file of twenty assembled animals. I also created a read_animals.py that reads in and prints one animal at random.
