@@ -66,9 +66,5 @@ docker run --rm -v $PWD:/data <dockerhubusername>/json-animal:1.0 read_animals.p
 Test the breed feature of the read_amimals.py by running:
 
 ```bash
-docker run --rm -v $PWD:/data <dockerhubusername>/json-animal:1.0 test_read_animals.py
-```
-or 
-```bash
 python3 test_read_animals.py
 ```
