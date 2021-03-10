@@ -1,0 +1,142 @@
+[
+  {
+    "head": "raven",
+    "body": "serval-rhino",
+    "arms": 6,
+    "legs": 6,
+    "tail": 12
+  },
+  {
+    "head": "snake",
+    "body": "koala-wren",
+    "arms": 8,
+    "legs": 6,
+    "tail": 14
+  },
+  {
+    "head": "bunny",
+    "body": "pup-swan",
+    "arms": 4,
+    "legs": 12,
+    "tail": 16
+  },
+  {
+    "head": "snake",
+    "body": "sole-hippo",
+    "arms": 8,
+    "legs": 3,
+    "tail": 11
+  },
+  {
+    "head": "raven",
+    "body": "heron-mako",
+    "arms": 4,
+    "legs": 9,
+    "tail": 13
+  },
+  {
+    "head": "snake",
+    "body": "shiner-oriole",
+    "arms": 2,
+    "legs": 3,
+    "tail": 5
+  },
+  {
+    "head": "snake",
+    "body": "snipe-tomcat",
+    "arms": 2,
+    "legs": 12,
+    "tail": 14
+  },
+  {
+    "head": "snake",
+    "body": "snake-shiner",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13
+  },
+  {
+    "head": "snake",
+    "body": "hornet-elf",
+    "arms": 8,
+    "legs": 12,
+    "tail": 20
+  },
+  {
+    "head": "bull",
+    "body": "gator-magpie",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13
+  },
+  {
+    "head": "lion",
+    "body": "skunk-civet",
+    "arms": 4,
+    "legs": 9,
+    "tail": 13
+  },
+  {
+    "head": "bull",
+    "body": "magpie-raven",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13
+  },
+  {
+    "head": "snake",
+    "body": "urchin-sloth",
+    "arms": 10,
+    "legs": 12,
+    "tail": 22
+  },
+  {
+    "head": "bull",
+    "body": "asp-bream",
+    "arms": 4,
+    "legs": 9,
+    "tail": 13
+  },
+  {
+    "head": "bunny",
+    "body": "weasel-boar",
+    "arms": 8,
+    "legs": 3,
+    "tail": 11
+  },
+  {
+    "head": "lion",
+    "body": "skink-moth",
+    "arms": 10,
+    "legs": 6,
+    "tail": 16
+  },
+  {
+    "head": "snake",
+    "body": "oryx-badger",
+    "arms": 6,
+    "legs": 3,
+    "tail": 9
+  },
+  {
+    "head": "lion",
+    "body": "eagle-hermit",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8
+  },
+  {
+    "head": "snake",
+    "body": "hen-cod",
+    "arms": 8,
+    "legs": 3,
+    "tail": 11
+  },
+  {
+    "head": "snake",
+    "body": "stud-tetra",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8
+  }
+]
