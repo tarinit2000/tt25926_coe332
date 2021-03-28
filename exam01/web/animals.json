@@ -1,0 +1,182 @@
+[
+  {
+    "head": "snake",
+    "body": "orca-koi",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13,
+    "uid": "7638240a-ea9c-41bb-b796-83ce112145ca",
+    "created_on": "2021-03-24 15:38:18.242800"
+  },
+  {
+    "head": "bull",
+    "body": "hornet-drake",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7,
+    "uid": "6e648943-ab77-46ea-bb63-0b979a6b815a",
+    "created_on": "2021-03-24 15:38:18.242914"
+  },
+  {
+    "head": "snake",
+    "body": "stag-ram",
+    "arms": 4,
+    "legs": 12,
+    "tail": 16,
+    "uid": "7ead6298-c038-47ce-8caf-f2f1006b1398",
+    "created_on": "2021-03-24 15:38:18.242990"
+  },
+  {
+    "head": "lion",
+    "body": "mammal-jackal",
+    "arms": 8,
+    "legs": 3,
+    "tail": 11,
+    "uid": "6fef25d8-0b0c-40b4-a2a9-e37463416bb1",
+    "created_on": "2021-03-24 15:38:18.243061"
+  },
+  {
+    "head": "bull",
+    "body": "buck-goat",
+    "arms": 8,
+    "legs": 6,
+    "tail": 14,
+    "uid": "e78d79a6-ecba-4272-80cd-c0ab0cb16210",
+    "created_on": "2021-03-24 15:38:18.243137"
+  },
+  {
+    "head": "bunny",
+    "body": "tuna-lion",
+    "arms": 10,
+    "legs": 6,
+    "tail": 16,
+    "uid": "b6e0f38e-048e-46dc-9b12-66bb568671cc",
+    "created_on": "2021-03-24 15:38:18.243196"
+  },
+  {
+    "head": "raven",
+    "body": "chimp-goose",
+    "arms": 6,
+    "legs": 3,
+    "tail": 9,
+    "uid": "c5e1a81a-b36a-4bd6-9ab1-6e2658320fb3",
+    "created_on": "2021-03-24 15:38:18.243251"
+  },
+  {
+    "head": "lion",
+    "body": "snail-lion",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7,
+    "uid": "bed03bbf-5f26-472a-a904-86c04e1e62cd",
+    "created_on": "2021-03-24 15:38:18.243333"
+  },
+  {
+    "head": "raven",
+    "body": "troll-mayfly",
+    "arms": 6,
+    "legs": 9,
+    "tail": 15,
+    "uid": "74751a61-dab7-4c85-b613-4cf94621b442",
+    "created_on": "2021-03-24 15:38:18.243421"
+  },
+  {
+    "head": "raven",
+    "body": "llama-molly",
+    "arms": 10,
+    "legs": 6,
+    "tail": 16,
+    "uid": "f2d28772-fddf-42b9-88ea-390bdb0eb8b2",
+    "created_on": "2021-03-24 15:38:18.243472"
+  },
+  {
+    "head": "bull",
+    "body": "shiner-swine",
+    "arms": 10,
+    "legs": 9,
+    "tail": 19,
+    "uid": "35c84e99-1407-416d-9ff8-3da8c0cee283",
+    "created_on": "2021-03-24 15:38:18.243516"
+  },
+  {
+    "head": "bull",
+    "body": "insect-aphid",
+    "arms": 10,
+    "legs": 9,
+    "tail": 19,
+    "uid": "cbcdc7ae-efaa-45e8-b6cc-0a9abfa060d7",
+    "created_on": "2021-03-24 15:38:18.243603"
+  },
+  {
+    "head": "snake",
+    "body": "weasel-caiman",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8,
+    "uid": "6e496f7f-baff-4ff9-9dcf-143f10657fc5",
+    "created_on": "2021-03-24 15:38:18.243691"
+  },
+  {
+    "head": "snake",
+    "body": "midge-hyena",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7,
+    "uid": "45c908fa-d8bd-418e-b921-6395973010cb",
+    "created_on": "2021-03-24 15:38:18.243746"
+  },
+  {
+    "head": "lion",
+    "body": "dodo-clam",
+    "arms": 4,
+    "legs": 9,
+    "tail": 13,
+    "uid": "511c6ce1-af4f-4bc5-a937-d5f0f6782521",
+    "created_on": "2021-03-24 15:38:18.243803"
+  },
+  {
+    "head": "lion",
+    "body": "adder-eagle",
+    "arms": 6,
+    "legs": 6,
+    "tail": 12,
+    "uid": "7c5bc295-2ff0-47a8-b2d3-32e05d341258",
+    "created_on": "2021-03-24 15:38:18.243899"
+  },
+  {
+    "head": "raven",
+    "body": "frog-turtle",
+    "arms": 6,
+    "legs": 3,
+    "tail": 9,
+    "uid": "964db412-e5d3-478f-a6ad-6b0a3213c11f",
+    "created_on": "2021-03-24 15:38:18.243949"
+  },
+  {
+    "head": "lion",
+    "body": "tuna-beagle",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8,
+    "uid": "6e4680ab-ff36-42d0-9e20-a9106622fd04",
+    "created_on": "2021-03-24 15:38:18.244005"
+  },
+  {
+    "head": "snake",
+    "body": "teal-loon",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13,
+    "uid": "1cfa1eea-66a4-4295-b7bf-dbce47b5b3d8",
+    "created_on": "2021-03-24 15:38:18.244056"
+  },
+  {
+    "head": "raven",
+    "body": "adder-weevil",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7,
+    "uid": "e2c7b986-a57c-4c49-95c2-2ef6cd4c9f4f",
+    "created_on": "2021-03-24 15:38:18.244138"
+  }
+]
