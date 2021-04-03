@@ -63,31 +63,27 @@ cd homework05/
 
 Part C: 
   1) I used this file ```deployment-partC.yml``` for Part C. You can use this command to create the deployment:
- 
-    ``` 
+  
     kubectl apply -f deployment-partC.yml 
-    ``` 
     
   2) You can use this command to get all the pods in the deployment and their IP address: 
 
-    ```
     kubectl get pods -o wide 
-    ```
-    
-    Here's the output of the above comand:  
-    ```
+
+   Here's the output of the above command:  
+
     NAME                                    READY   STATUS    RESTARTS   AGE     IP              NODE                         NOMINATED NODE   READINESS GATES
     tarini-hw-partc-68f7bf8cfb-54jpd        1/1     Running   0          54s     10.244.6.115    c03                          <none>           <none>
     tarini-hw-partc-68f7bf8cfb-98vgw        1/1     Running   0          56s     10.244.3.243    c01                          <none>           <none>
     tarini-hw-partc-68f7bf8cfb-sv9tx        1/1     Running   0          53s     10.244.4.120    c02                          <none>           <none>
-    ```
+
     
   3) The logs associated with each pod in the deployment match the output from number 2, as expected!
-    ```
-    $ kubectl logs tarini-hw-partc-68f7bf8cfb-54jpd
-    Hello, Tarini Thiagarajan from IP 10.244.6.115!
-    [tarinit@isp02 homework05]$ kubectl logs tarini-hw-partc-68f7bf8cfb-98vgw
-    Hello, Tarini Thiagarajan from IP 10.244.3.243!
-    [tarinit@isp02 homework05]$ kubectl logs tarini-hw-partc-68f7bf8cfb-sv9tx
-    Hello, Tarini Thiagarajan from IP 10.244.4.120!
-    ```
+```bash
+   $ kubectl logs tarini-hw-partc-68f7bf8cfb-54jpd
+   Hello, Tarini Thiagarajan from IP 10.244.6.115!
+   [tarinit@isp02 homework05]$ kubectl logs tarini-hw-partc-68f7bf8cfb-98vgw
+   Hello, Tarini Thiagarajan from IP 10.244.3.243!
+   [tarinit@isp02 homework05]$ kubectl logs tarini-hw-partc-68f7bf8cfb-sv9tx
+   Hello, Tarini Thiagarajan from IP 10.244.4.120!
+ ```
