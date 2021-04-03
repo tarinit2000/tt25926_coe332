@@ -63,16 +63,12 @@ cd homework05/
 
 Part C: 
   1) I used this file ```deployment-partC.yml``` for Part C. You can use this command to create the deployment: 
-    ```bash
-    kubectl apply -f deployment-partC.yml 
-    ``` 
+    ```bash kubectl apply -f deployment-partC.yml ``` 
     
   2) You can use this command to get all the pods in the deployment and their IP address: 
-    ```bash
-    kubectl get pods -o wide
-    ```
+    ```bash kubectl get pods -o wide ```
     Here's the output of the above comand:  
-    ```
+    ```bash
     NAME                                    READY   STATUS    RESTARTS   AGE     IP              NODE                         NOMINATED NODE   READINESS GATES
     tarini-hw-partc-68f7bf8cfb-54jpd        1/1     Running   0          54s     10.244.6.115    c03                          <none>           <none>
     tarini-hw-partc-68f7bf8cfb-98vgw        1/1     Running   0          56s     10.244.3.243    c01                          <none>           <none>
