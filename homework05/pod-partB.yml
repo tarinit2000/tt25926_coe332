@@ -11,5 +11,5 @@ spec:
       image: ubuntu:18.04
       env:
         - name: "NAME"
-          value: "Tarini-Thiagarajan"
+          value: "Tarini Thiagarajan"
       command: ['sh', '-c', 'echo "Hello, $NAME!" && sleep 3600']
