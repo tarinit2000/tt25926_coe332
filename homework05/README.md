@@ -14,14 +14,10 @@ cd homework05/
 
 ## Running the Code
 
-PART A) Create a pod in Kubernetes to print a Hello message!
+### PART A: Create a pod in Kubernetes to print a Hello message!
 
-  1) 
-        File: pod-partA.yml 
-        Use this command to create the pod:
-        ```bash
-        kubectl apply -f pod-partA.yml
-        ```
+  1) I used the file ```pod-partA.yml``` for part A. You can use this command to create the pod:
+     ```kubectl apply -f pod-partA.yml```
         
   2) 
         Use this command to get the pod using the following selector:
