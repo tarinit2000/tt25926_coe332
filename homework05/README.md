@@ -61,7 +61,7 @@ cd homework05/
      kubectl delete pods tarini-hw-partb
      ```
 
-Part C: 
+### Part C: Create a deployment with 3 replica pods!
   1) I used this file ```deployment-partC.yml``` for Part C. You can use this command to create the deployment:
   
     kubectl apply -f deployment-partC.yml 
