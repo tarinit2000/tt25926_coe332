@@ -24,7 +24,7 @@ Here's the output of the above command: ```persistentvolumeclaim/tarinit-test-re
       
 ### Step 2: Create a deployment for the Redis database!
 
-I used the file ```tarinit-test-redis-deployment.yml``` for Step 2. You can use this command to create the pod: 
+I used the file ```tarinit-test-redis-deployment.yml``` for Step 2. You can use this command to create the deployment: 
 ```bash
 kubectl apply -f tarinit-test-redis-deployment.yml
 ```
@@ -32,7 +32,7 @@ Here's the output of the above command: ```deployment.apps/tarinit-test-redis-de
      
 ### Step 3: Create a service for the Redis database!
 
-I used the file ```tarinit-test-redis-service.yml``` for Step 3. You can use this command to create the pod: 
+I used the file ```tarinit-test-redis-service.yml``` for Step 3. You can use this command to create the service: 
 ```bash
 kubectl apply -f tarinit-test-redis-service.yml
 ```
@@ -79,7 +79,7 @@ Back in the python shell, check that you can still get the key using the same IP
 
 ### Step 4: Create a deployment for the flask API!
 
-I used the file ```tarinit-test-flask-deployment.yml``` for Step 4. You can use this command to create the pod: 
+I used the file ```tarinit-test-flask-deployment.yml``` for Step 4. You can use this command to create the deployment: 
 ```bash
 kubectl  apply -f tarinit-test-flask-deployment.yml
 ```
@@ -87,7 +87,7 @@ Here's the output of the above command: ```deployment.apps/tarinit-test-flask-de
 
 ### Step 5: Create a service for the flask API!
 
-I used the file ```tarinit-test-flask-service.yml``` for Step 5. You can use this command to create the pod: 
+I used the file ```tarinit-test-flask-service.yml``` for Step 5. You can use this command to create the service: 
 ```bash
 kubectl apply -f tarinit-test-flask-service.yml
 ```
