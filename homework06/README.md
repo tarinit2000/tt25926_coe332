@@ -93,7 +93,7 @@ kubectl apply -f tarinit-test-flask-service.yml
 ```
 Here's the output of the above command: ```service/tarinit-test-flask-service created```
 
-### Checking Steps 1-3: 
+### Checking Steps 4 and 5: 
 Look up the pod IP address for the test flask deployment:
 ```bash
 $ kubectl get pods -o wide tarinit-test-flask-deployment-f5c47cc9b-p9xb4
