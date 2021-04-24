@@ -35,8 +35,8 @@ kubectl apply -f tarinit-hw7-worker-deployment.yml
 ```
 Here's the output of the above command: ```deployment.apps/tarinit-hw7-worker-deployment created```
 
-Step 3) To verify that the flask API and worker are working properly:
-Let's post a job:
+Step 3) To verify that the flask API and worker are working properly,
+let's post a job:
 ```bash
 $ kubectl exec -it redis-client-debug-deployment-5f88f47c96-mnzhj -- /bin/bash
 # curl -X POST -H "content-type: application/json" -d '{"start": "START TEST", "end": "END TEST"}' 10.244.13.47:5000/jobs
@@ -70,7 +70,7 @@ In [5]: for key in rd.keys():
 The status for both jobs is successfully submitted and completes.
       
 ### Part B:
-I added an environment varibiable that stores the worker IP address. I updated my jobs.py and worker.py to save the worker's IP address as a new key in the job record. 
+I added an environment variable that stores the worker's IP address. I updated my jobs.py and worker.py to save the worker's IP address as a new key in the job record. 
 
 Let's post a job:
 ```bash
