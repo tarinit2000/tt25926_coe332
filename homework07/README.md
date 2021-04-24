@@ -35,8 +35,7 @@ kubectl apply -f tarinit-hw7-worker-deployment.yml
 ```
 Here's the output of the above command: ```deployment.apps/tarinit-hw7-worker-deployment created```
 
-Step 3) 
-To verify that the flask API and worker are working properly:
+Step 3) To verify that the flask API and worker are working properly:
 Let's post a job:
 ```bash
 $ kubectl exec -it redis-client-debug-deployment-5f88f47c96-mnzhj -- /bin/bash
