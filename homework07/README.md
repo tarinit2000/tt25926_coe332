@@ -48,10 +48,10 @@ $ kubectl exec -it redis-client-debug-deployment-5f88f47c96-mnzhj -- /bin/bash
 # ipython
 In [1]: import redis
 In [2]: rd = redis.StrictRedis(host='10.100.138.84', port=6379, db=0)
-In [4]: for key in rd.keys():
+In [3]: for key in rd.keys():
    ...:     print(rd.hgetall(key))
 {b'id': b'aa5d540f-b548-4f8d-9155-ac2c6e5ba7d8', b'status': b'in progress', b'start': b'START TEST', b'end': b'END TEST'}
-In [5]: for key in rd.keys():
+In [4]: for key in rd.keys():
    ...:     print(rd.hgetall(key))
 {b'id': b'aa5d540f-b548-4f8d-9155-ac2c6e5ba7d8', b'status': b'complete', b'start': b'START TEST', b'end': b'END TEST'}
 ```
@@ -62,7 +62,7 @@ Let's try posting another job:
 ```
 In the other terminal: 
 ```bash
-In [12]: for key in rd.keys():
+In [5]: for key in rd.keys():
     ...:     print(rd.hgetall(key))
 {b'id': b'80c0a9db-bd0c-457f-9a31-2404604999b9', b'status': b'complete', b'start': b'START TEST', b'end': b'END TEST'}
 {b'id': b'aa5d540f-b548-4f8d-9155-ac2c6e5ba7d8', b'status': b'complete', b'start': b'START TEST', b'end': b'END TEST'}
