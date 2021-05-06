@@ -14,7 +14,7 @@ The data set for this project was derived from: https://wiki.cancerimagingarchiv
 In the research study linked above, 123 glioblastoma patients had MRI scans done every 8 weeks for 72 weeks (10 total scans). 
 For the purposes of this project, the data dictionary stores the cross-sectional tumor diameters, a common means for characterizing tumors in the clinic, for all patients. 
 Additionally, patients with zero baseline diameters and no scans after baseline were removed from the data set since they did not have enough insightful data.
-Thus, 62 patients remained for analysis. 
+Thus, 62 patients remained for analysis. Finally, the tumor data was normalized to the baseline scan (Scan 1 or week 0).
 
 ### Converting the Data from CSV to JSON
 The ```load.py``` file was used to convert the csv raw data into a ```data.json``` file. Patients without data for certain scans were given a value of "null", and each patient was assigned a uuid for identification purposes in the ```load.py``` file. 
