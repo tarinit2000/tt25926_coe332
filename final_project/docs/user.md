@@ -186,7 +186,7 @@ $ kubectl exec -it tarinit-test-worker-deployment-finalproj-7df8f64bbd-srdws -- 
 }
 # curl '10.111.234.33:5000/download/?jobuuid=5afb2872-a428-43f5-bdbc-a374a5a8a38d'
 ```
-Now, you can move the out.png from the worker deployment into your local server using the following command:
+Now, you can move the out.png from the worker deployment into your local server using a command similar to this:
 ```bash
 scp out.png tarinit@isp02.tacc.utexas.edu:/home/tarinit/
 ```
