@@ -191,7 +191,7 @@ Now, you can move the out.png from the worker deployment into your local server 
 scp out.png tarinit@isp02.tacc.utexas.edu:/home/tarinit/
 ```
 If you open the ```out.png``` the resulting png would look like:
-![Glioblastoma Scatterplot](/plot_image/out.png)
+![Glioblastoma Scatterplot](/final_project/plot_image/out.png)
 
 If you would like to clear the job database, you can use the following code:
 ```bash
