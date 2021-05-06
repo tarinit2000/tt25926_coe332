@@ -1,9 +1,7 @@
 # Tarini Thiagarajan's Final Project User Description
-
 This file will walk you through how to interact with this API. 
 
 ## What is Glioblastoma?
-
 Glioblastoma is the most invasive and common form of brain tumor in adults globally, and current treatments are ineffective in targeting all cancerous cells. 
 To understand the nature of this disease, glioblastoma progresses when brain cells called astrocytes mutate and spread uncontrollably throughout the entire brain. 
 These cancer cells damage healthy brain tissue and increase pressure on surrounding tissue and the skull. 
@@ -11,7 +9,6 @@ Glioblastoma symptoms include a significant deterioration in natural cognitive f
 Unfortunately, this invasive disease has no known cure and has extremely low prognosis (median survival timeline of fifteen to eighteen months and a 10% five-year survival rate).
 
 ## Project Data
-
 ### Information about the Data 
 The data set for this project was derived from: https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=50135264#501352644613f7d5a2514c2195445afde60ce068
 In the research study linked above, 123 glioblastoma patients had MRI scans done every 8 weeks for 72 weeks (10 total scans). 
@@ -28,11 +25,8 @@ python3 load.py
 The above command adds a ```data.json``` file to the local directory with the glioblastoma patient data stored as a json dictionary. 
 
 ## Running the Project 
-
 ### Flask 
-
 #### CRUD Operations
-
 Exec into the worker deployment using this code:
 ```bash
 $ kubectl exec -it tarinit-test-worker-deployment-finalproj-7df8f64bbd-srdws -- /bin/bash
@@ -165,7 +159,6 @@ Database has been reset!
 Patient was deleted
 ```
 #### Jobs Analysis (plotting patient data)
-
 You can post a job in order to plot patient data. 
 To elaborate, you can send in a start date (ex: 'Scan 1', which is week 0 or the baseline scan) and an end date (ex: 'Scan 5').
 Then, a plot of this range of scans (cross-sectional tumor diameters (mm) vs time (weeks)) will be sent to your local directory. 
@@ -203,7 +196,6 @@ If you would like to clear the job database, you can use the following code:
 All jobs were cleared.
 ```
 ### Redis
-
 You can also check if the redis database is working correctly by doing the following:
 ```bash
 $ kubectl exec -it redis-client-debug-deployment-5f88f47c96-mnzhj -- /bin/bash
