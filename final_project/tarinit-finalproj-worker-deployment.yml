@@ -1,0 +1,25 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tarinit-test-worker-deployment-finalproj
+  labels:
+    app: tarinit-test-worker-finalproj
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tarinit-test-worker-finalproj
+  template:
+    metadata:
+      labels:
+        app: tarinit-test-worker-finalproj
+    spec:
+      containers:
+        - name: tarinit-test-worker-deployment-finalproj
+          imagePullPolicy: Always
+          image: tarinit2000/tarinit-finalproj-app-flask:1.0
+          #command: ['sleep', '999999999']
+          env:
+          - name: WORKER_API
+            value: "worker.py"

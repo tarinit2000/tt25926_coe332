@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tarinit-test-flask-deployment-finalproj
+  labels:
+    app: tarinit-test-flask-finalproj
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tarinit-test-flask-finalproj
+  template:
+    metadata:
+      labels:
+        app: tarinit-test-flask-finalproj
+        env: test
+    spec:
+      containers:
+        - name: tarinit-test-flask-finalproj
+          imagePullPolicy: Always
+          image: tarinit2000/tarinit-finalproj-app-flask:1.0
+          #command: ['sleep', '999999999']
+          command: ['python', 'api.py']
+          env:
+          - name: FLASK_APP
+            value: "api.py"
+          ports:
+          - name: http
+            containerPort: 5000

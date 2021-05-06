@@ -1,0 +1,30 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tarinit-test-redis-deployment-finalproj
+  labels:
+    env: test
+    app: tarinit-test-redis-service-app-finalproj
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      env: test
+      app: tarinit-test-redis-service-app-finalproj
+  template:
+    metadata:
+      labels:
+        env: test
+        app: tarinit-test-redis-service-app-finalproj
+    spec:
+      containers:
+        - name: tarinit-test-redis-deployment-finalproj
+          image: redis:5.0.0
+          volumeMounts:
+          - name: tarinit-test-redis-pvc-finalproj
+            mountPath: "/data"
+      volumes:
+      - name: tarinit-test-redis-pvc-finalproj
+        persistentVolumeClaim:
+          claimName: tarinit-test-redis-pvc-finalproj
